@@ -1,0 +1,19 @@
+{
+    "name": "vanillaforums/snidely",
+    "type": "library",
+    "description": "Isolating some test cases with hhvm that fail in larger projects.",
+    "license": "MIT",
+    "authors": [
+        { "name": "Todd Burry", "email": "todd@vanillaforums.com", "role": "Developer" }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Test\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+    }
+}
