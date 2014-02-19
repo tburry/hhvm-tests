@@ -1,4 +1,6 @@
 <?php
+// This should pass on hhvm.
+
 require_once __DIR__.'/vendor/autoload.php';
 
 
